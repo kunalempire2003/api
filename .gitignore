@@ -1,0 +1,6 @@
+.DS_Store //file that stores custom attributes of a folder such as the position of icons or the choice of a background image. It is created by the Finder application in macOS.
+node_modules/
+dist/
+.env
+coverage/
+.vscode/

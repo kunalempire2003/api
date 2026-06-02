@@ -300,7 +300,8 @@ server.post("/api/contact", async function contactForm(req, res) {
 
 const start = async () => {
   try {
-    await server.listen({ port: PORT });
+    await server.listen({ port: PORT ,//remove host line when you run locally
+      host: "0.0.0.0",});
     console.log(`Server listening on port ${PORT}`);
   } catch (err) {
     console.error(err);
